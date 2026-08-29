@@ -29,7 +29,7 @@ function App() {
       console.log(response.data);
       setTodos(response.data);
     } catch (error) {
-      console.log("Error fetching todos:", error);
+      console.log("Error fetching the todos:", error);
     }
   };
 
